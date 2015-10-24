@@ -1,0 +1,271 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300);
+
+@font-face {
+    font-family: 'wendy_lpbold';
+    src: url('../fonts/wendy_lp_bold-webfont.eot');
+    src: url('../fonts/wendy_lp_bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/wendy_lp_bold-webfont.woff2') format('woff2'),
+    url('../fonts/wendy_lp_bold-webfont.woff') format('woff'),
+    url('../fonts/wendy_lp_bold-webfont.ttf') format('truetype'),
+    url('../fonts/wendy_lp_bold-webfont.svg#wendy_lpbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    margin: 0;
+    font-family: 'Open Sans';
+}
+.badge-sm{
+    background-color: #ff8833;
+    border-radius: 2px;
+    color: #fff !important;
+    padding: 1px 3px 1px 3px;
+    text-transform: uppercase;
+}
+.badge-sm:hover{
+    background-color: #fc791b;
+    color: #fff;
+}
+.navbar-default .navbar-brand{
+    color: #fff;
+    padding-top: 10px;  
+}
+.clear{
+    clear: both;
+}
+.col-md-3{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar a {
+    color: #fff;
+    font-family: 'wendy_lpbold';
+    font-size: 38px;
+    padding: 5px 0;
+    display: block;
+}
+.navbar a:hover{
+    text-decoration: none;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.master
+{
+    max-width: 1150px;
+}
+.bukts-master{
+    max-width: 800px;
+}
+.navbar-default {
+    background-color: #333;
+    border-color: transparent;
+}
+.navbar {
+    position: relative;
+    min-height: 40px;
+    margin-bottom: 0px;
+    border: 0px solid transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #999;
+    font-family: 'Open Sans';
+    font-size: 11px;
+    text-transform: uppercase;
+    webkit-transition: color .1s ease-in;
+    -moz-transition: color .1s ease-in;
+    -o-transition: color .1s ease-in;
+    transition: color .1s ease-in;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+.background{
+    background-color: #f4f4f4;
+}
+.strip{
+    background: url(../images/strip.png);
+    width: 100%;
+    height: 10px;
+}
+.no-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+.heading{
+    font-family: 'Open Sans';
+    font-size: 26px;
+    font-weight: 300;
+    color: #333;
+    padding: 60px 0;
+    margin: 0;
+}
+.bukt{
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.bukt-txt{
+    font-weight: 700;
+    color: #5a5a5a;
+    font-size: 14px !important;
+    padding: 10px 0 20px 0;
+    display: block;
+}
+.overlay{
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    padding: 20px 10px 10px 10px;
+    border-radius: 2px;
+}
+.overlay span{
+    font-size: 14px;
+    color: #444;
+}
+.bukt:hover .overlay{
+    display: block;
+}
+.footer-wrapper{
+    background-color: #fff;
+    border-top: 1px solid #e5e5e5;
+    padding: 40px 0 0 0;
+}
+.footer span{
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 500;
+    color: #999999;
+}
+.footer p{
+    line-height: 1.6;
+    font-size: 13px;
+    color: #999;
+    padding: 5px 0;
+    display: block;
+}
+.footer ul li a{
+    font-size: 13px;
+    line-height: 1.8;
+    font-weight: normal;
+    white-space: nowrap;
+    color: #999999;
+}
+.footer ul li a:hover{
+    color: #333;
+}
+.ads img{
+    border-radius: 4px;
+}
+.ads a{
+    color: #333;
+    font-size: 14px;
+}
+.ads p{
+    color: #999;
+    line-height: 1.5;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.copyright-wrapper{
+    padding: 10px 0 25px 0;
+}
+.copyright span{
+    font-size: 13px;
+    color: #999;
+    padding-bottom: 15px;
+    display: block; 
+}
+.social ul li a img{
+    width: 25px;
+    opacity: .37;
+}
+.social ul li a img:hover{
+    opacity: .80;
+}
+
+
+
+.profile{
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.shots h3{
+    font-size: 32px;
+    font-weight: 300;
+    padding: 10px 0 20px 0;
+}
+.shots i{
+    padding: 0 5px;
+}
+.shots ul li a{
+    font-size: 26px;
+    padding: 5px 0;
+    display: block;
+    color: #9a9a9a;
+}
+.shots ul li a:hover{
+    color: #454545;
+}
+.bukts{
+    background-color: #fff;
+    padding: 10px;
+}
+.bukt-details{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 2;
+    padding: 10px 10px 40px 10px;
+    display: block;
+}
+.bg{
+    background-color: transparent;
+}
+.bukts ul{
+    padding: 0;
+    margin: 0;
+}
+.bukts ul li{
+    list-style-type: none;
+}
+.bukts ul li a{
+    font-size: 14px;
+    color: #fff;
+}
+.bukts ul li a i{
+    padding-right: 10px;
+    font-size: 16px;
+}
+.bukts ul li a:hover{
+    background-color: #454545;
+    color: #fff;
+}
+
+
+
+@media (max-width: 768px){
+    .no-padding{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+
+
+
+
+
